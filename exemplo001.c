@@ -36,6 +36,7 @@ simplificarFacao(fracao F);
         fracao F5 = criarFracao(4, 9);
         fracao F6 = somarFracoes(F4, F5);
         exibirFracao(F6);
+        fracao F7 = subitrairFracao();
     
     
     return 0;

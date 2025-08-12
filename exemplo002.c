@@ -9,7 +9,7 @@ struct pessoa {
 } pessoa;
 
 int mian() {
-typedef int inteiro
+typedef int inteiro;
 
 
 strcpy(X.Nome, "Maria Alves");
@@ -17,4 +17,4 @@ strcpy(X.Telefone, "(61) 12345-6789");
 strcpy(X.endereco, "SHIS 12 25 13");
 
 printf("%s\t%s\t%s\n", X.Nome, X.endereco, X.Telefone);
-
+}

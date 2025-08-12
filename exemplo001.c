@@ -5,13 +5,14 @@
 // Definição do TAD fração 
 
 typedef struct {
-    int numerrador;
-    int denominador;
+    int Num;
+    int Den;
 }fracao;
 
-int main (){
+    fracao criarFracao(int N,int D);
+    void exibirFracao(fracao F);
 
-    int t = sizeof(fracao);
-    printf("tamanho : %d\n", t);
+    int main (){
+        system("cls");
+    } 
     
-}

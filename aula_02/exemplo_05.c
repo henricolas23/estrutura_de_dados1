@@ -13,13 +13,13 @@ int main(){
 
    int conta;
    float saldo;
-   char nome[150];
+   char nome[50];
 
    for(int i = 0; i < 4; i++){
 
 
-   fscanf(fp, "%d %f %[^\n\n", &conta, &saldo, nome);
-   printf("%d\t%f\t%sn", conta, saldo, nome);
+   fscanf(fp, "%d %f %[^\n]\n", &conta, &saldo, nome);
+   printf("%d\t%f\t%s\n", conta, saldo, nome);
    }
 
     printf("arquivo aberto/criado\n");

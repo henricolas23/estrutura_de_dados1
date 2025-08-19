@@ -70,13 +70,3 @@ simplificarFacao(fracao F);
         resposta = simplificarFacao(resposta);
         return resposta;
     }
-
-
-
-
-
-
-
-
-    
-    

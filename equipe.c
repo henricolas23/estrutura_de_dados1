@@ -26,7 +26,9 @@ time * X = malloc(20 * sizeof(time));
         "%d; %[^;]; %[^ ;];%d; %d; %d; %d; %d; %d; %d; %d",
         &X[i].pos, X[i].estado, X[i].esquipe, &X[i].pts, &X[i].j, &X[i].v, &X[i].e, &X[i].d, &X[i].gp, &X[i].gc, &X[i].gs
         )== 11){
-        
+        printf("%s\n", X[i].esquipe);
+        X[i].aproveitamento = (float) 100 * X[i].pts / (3 * X[i].pts / 3 * X[i].j);
+        i++;
     }
     
 

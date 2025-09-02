@@ -19,6 +19,9 @@ typedef struct {
 
 time * LerDados(char * arquivo);
 
+int getPontos(equipe * T, int posicao);
+float getAproveitamentos() 
+
 
 
 

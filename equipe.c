@@ -41,4 +41,18 @@ time * X = malloc(20 * sizeof(time));
     fclose(fp);
     return X;
 
+
+
+int getAproveitamentos(equipe * T, char * nome){
+
+    int i;
+
+    for(i = 0; i < 20; i++)
+        if (strcmp(T[i].nome, nome) == 0)
+            return T[i].aproveitamento;
+
+
+    return ERRO;
+}
+
 }

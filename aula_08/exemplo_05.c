@@ -45,21 +45,17 @@ int main(){
         //percorrer a lista (visitar todos os nos da lista)
 
     
-    Item * X = A;
-    printf("%x\ t  %d\n" , X, X->chave); //17
     
-    X = X ->Proximo;
-    printf("%x \t %d\n", X, X->chave); //29
+    Item * X = A;
+    
+    for( Item *  X = A; X != NULL; X = X-> Proximo) {
+            printf("%x\ t  %d\n" , X, X->chave); //17
 
-    X = X->Proximo; //
-    printf("%x \t %d\n", X, X->chave); //40
+    }
+    
+    
 
-    X = X->Proximo; 
-    printf("%x\t %d\n", X, X->chave); //97 
-
-    X = X->Proximo;
-    if (X == NULL) printf("Final da lista");
- 
+    
 
 
 
